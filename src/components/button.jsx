@@ -4,7 +4,7 @@ export const MyButton = ({ children }) => {
   return (
     <button
       className="my-button"
-      style={{ backgroundColor: "white", color: "blue" }}
+      style={{ backgroundColor: "white", color: "red" }}
     >
       {children}
     </button>
