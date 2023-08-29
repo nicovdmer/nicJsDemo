@@ -1,5 +1,12 @@
 import React from "react";
 
-export const MyButton = () => {
-  return <button className="my-button">Logout</button>;
+export const MyButton = ({ children }) => {
+  return (
+    <button
+      className="my-button"
+      style={{ backgroundColor: "white", color: "blue" }}
+    >
+      {children}
+    </button>
+  );
 };
